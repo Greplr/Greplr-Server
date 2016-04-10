@@ -16,7 +16,7 @@ public class GreplrServer {
 
         jt.start(
                 Undertow.builder()
-                        .addHttpListener(8080, "localhost")
+                        .addHttpListener(9000, "localhost")
         );
 
     }
